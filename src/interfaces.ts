@@ -4,7 +4,7 @@ export interface RemoteSocketWrapper {
 
 export interface CustomArrayBuffer {
   earlyData: ArrayBufferLike | null,
-  error: any
+  error: string
 }
 
 export interface VlessHeader {
